@@ -1,0 +1,23 @@
+{
+  "name": "sagitarius",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rednexie/sagitarius.git"
+  },
+  "author": "Rednexie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rednexie/sagitarius/issues"
+  },
+  "homepage": "https://github.com/Rednexie/sagitarius#readme",
+  "dependencies": {
+    "@seald-io/nedb": "^4.0.4"
+  }
+}

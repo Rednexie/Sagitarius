@@ -1,7 +1,7 @@
 {
   "name": "sagitarius",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Fast, minimal and modern NeDB ODM for Node.",
   "main": "index.js",
   "scripts": {
   },
@@ -12,11 +12,11 @@
     "url": "git+https://github.com/Rednexie/sagitarius.git"
   },
   "author": "Rednexie",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rednexie/sagitarius/issues"
   },
-  "homepage": "https://github.com/Rednexie/sagitarius#readme",
+  "homepage": "https://rednexie.github.io/sagitarius",
   "dependencies": {
     "@seald-io/nedb": "^4.0.4"
   }

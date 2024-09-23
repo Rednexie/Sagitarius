@@ -84,20 +84,23 @@ await user.save();
 
 <ul>
 
-<li><a href="#modeldefine" class="method-link">Model.define(name, schema, path?)</a> - Creates a new database model.</li>
-<li><a href="#modelvalidated" class="method-link">Model.validate(d)</a> - If the schema exists, checks if the document is valid.</li>
+<li><a href="#async-modeldefinename-schema-path" class="method-link">Model.define(name, schema, path?)</a> - Creates a new database model.</li>
+<li><a href="#async-modelvalidated" class="method-link">Model.validate(d)</a> - If the schema exists, checks if the document is valid.</li>
 
-<li><a href="#modelcreated" class="method-link">Model.create(d)</a> - Creates a document and saves it to the database.</li>
-<li><a href="#modelcreatemanyd" class="method-link">Model.createMany(d[])</a> - Creates multiple documents and saves them to the database.</li>
-<li><a href="#modelfindquery" class="method-link">Model.find(query)</a> - Finds matching document instances in the database.</li>
-<li><a href="#modelfindonequery" class="method-link">Model.findOne(query)</a> - Finds a matching document from the database or returns null.</li>
-<li><a href="#modelupdatequeryd" class="method-link">Model.update(query, d)</a> - Finds matching documents from the database and updates them with the given document.</li>
-<li><a href="#modelupdateonequeryd" class="method-link">Model.updateOne(query, d)</a> - Finds a matching document from the database or returns null.</li>
-<li><a href="#modeldeletequery" class="method-link">Model.delete(query)</a> - Finds matching documents and removes them from the database.</li>
-<li><a href="#modeldeleteonequery" class="method-link">Model.deleteOne(query)</a> - Finds a matching document and removes it from the database.</li>
-<li><a href="#modelexistsquery" class="method-link">Model.exists(query)</a> - Checks if any document matching the query exist in the database.</li>
-<li><a href="#modelcountquery" class="method-link">Model.count(query)</a> - Counts how many matching documents exists in the database.</li>
+<li><a href="#async-modelcreated" class="method-link">Model.create(d)</a> - Creates a document and saves it to the database.</li>
+<li><a href="#async-modelcreatemanyd" class="method-link">Model.createMany(d[])</a> - Creates multiple documents and saves them to the database.</li>
+<li><a href="#async-modelfindquery" class="method-link">Model.find(query)</a> - Finds matching document instances in the database.</li>
+<li><a href="#async-modelfindonequery" class="method-link">Model.findOne(query)</a> - Finds a matching document from the database or returns null.</li>
+<li><a href="#async-modelupdatequeryd" class="method-link">Model.update(query, d)</a> - Finds matching documents from the database and updates them with the given document.</li>
+<li><a href="#async-modelupdateonequeryd" class="method-link">Model.updateOne(query, d)</a> - Finds a matching document from the database or returns null.</li>
+<li><a href="#async-modeldeletequery" class="method-link">Model.delete(query)</a> - Finds matching documents and removes them from the database.</li>
+<li><a href="#async-modeldeleteonequery" class="method-link">Model.deleteOne(query)</a> - Finds a matching document and removes it from the database.</li>
+<li><a href="#async-modelexistsquery" class="method-link">Model.exists(query)</a> - Checks if any document matching the query exist in the database.</li>
+<li><a href="#async-modelcountquery" class="method-link">Model.count(query)</a> - Counts how many matching documents exists in the database.</li>
 </ul>
+
+
+
 <h4 id="modeldefine">async Model.define(name, schema, path?)</h4>
 <p>Initializes the model and creates a corresponding database. You can customize database name and path. If you want to do schema validation and type-checking, you have to define a schema.</p>
 

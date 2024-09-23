@@ -3,7 +3,7 @@
 ## Introduction
 
 
-Minimal, easy to use, fast Object Document Mapping(ODM) library for NeDB. Supports type-checking and validation.
+Minimal, easy to use, fast Object Document Mapping(ODM) library for NeDB. Supports type-checking and schema validation.
 
 
 ## Installation

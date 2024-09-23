@@ -9,6 +9,11 @@ export interface Schema {
     [key: string]: { new (...args: any[]): any };
 
 }
+
+export declare module Sagitarius{
+
+}
+
 export declare class Model {
     // Instance methods
     save(): Promise<D>;

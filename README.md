@@ -22,7 +22,7 @@ pnpm add sagitarius
 Create and initialize the model:
 ```js
 import { Model } from "sagitarius";
-class User extends BaseModel{
+class User extends Model{
     constructor(doc){
         super(doc)
         Object.assign(this, doc);
